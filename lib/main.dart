@@ -36,43 +36,72 @@ class _MyHomePageState extends State<MyHomePage> {
           ),
         ),
       ),
-      body: Row(
-        children: [
-          Container(
-            height: 100,
-            width: 100,
-            color: Colors.red,
-          ),
-          Container(
-            height: 100,
-            width: 100,
-            color: Colors.blue,
-          ),
-          Container(
-            height: 100,
-            width: 100,
-            color: Colors.purple,
-          ),
-          Container(
-            height: 100,
-            width: 100,
-            color: Colors.pink,
-          ),
-          Container(
-            height: 100,
-            width: 100,
-            color: Colors.orange,
-          ),
-          Container(
-            height: 100,
-            width: 100,
-            color: Colors.deepPurple,
-          ),Container(
-            height: 100,
-            width: 100,
-            color: Colors.cyan,
-          ),
-        ],
+      body: Container(
+        color: Colors.black87,
+        height: double.infinity,
+        width: double.infinity,
+        child: Wrap(
+          direction: Axis.horizontal,
+          spacing: 12,
+          runSpacing: 12,
+          alignment: WrapAlignment.center,
+          //runAlignment: WrapAlignment.spaceAround,
+          children: [
+            Container(
+              height: 100,
+              width: 100,
+              color: Colors.red,
+            ),
+            Container(
+              height: 100,
+              width: 100,
+              color: Colors.blue,
+            ),
+            Container(
+              height: 100,
+              width: 100,
+              color: Colors.purple,
+            ),
+            Container(
+              height: 100,
+              width: 100,
+              color: Colors.pink,
+            ),
+            Container(
+              height: 100,
+              width: 100,
+              color: Colors.orange,
+            ),
+            Container(
+              height: 100,
+              width: 100,
+              color: Colors.deepPurple,
+            ),Container(
+              height: 100,
+              width: 100,
+              color: Colors.cyan,
+            ),
+            Container(
+              height: 100,
+              width: 100,
+              color: Colors.pink,
+            ),
+            Container(
+              height: 100,
+              width: 100,
+              color: Colors.orange,
+            ),
+            Container(
+              height: 100,
+              width: 100,
+              color: Colors.deepPurple,
+            ),Container(
+              height: 100,
+              width: 100,
+              color: Colors.cyan,
+            ),
+          ],
+        ),
       ),
     );
   }
